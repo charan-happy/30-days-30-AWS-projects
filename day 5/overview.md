@@ -1,0 +1,3 @@
+# Host and run an application on AWS using Lift & Shift Strategy.
+It is moving of an application from on premise to cloud without significant changes to the application architecture. This strategy is typically used when organisations want to move out to the cloud with minimal disruptions to the existing application
+services used : certificate manager, EC2, Load balancer, Route 53, s3 bucket, Autoscaling group
