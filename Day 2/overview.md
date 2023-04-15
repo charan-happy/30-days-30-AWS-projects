@@ -55,10 +55,6 @@ In the Upload: status section in the upper right, choose Close
 ![image](https://user-images.githubusercontent.com/89054489/232222894-6bbaa1b1-620b-4fc4-9d83-5a40869f30bf.png)
 ![image](https://user-images.githubusercontent.com/89054489/232222957-56baf536-d8de-4765-9fbd-06ff1c9649db.png)
 
-![image](https://user-images.githubusercontent.com/89054489/232223720-5c63e347-33d4-465a-8994-0ea9e81596c0.png)
-![image](https://user-images.githubusercontent.com/89054489/232223951-d6318ed0-9e34-4c6c-be70-8ccbc6f3ad06.png)
-![image](https://user-images.githubusercontent.com/89054489/232224072-b81cb65b-52ce-4968-90d1-f946d1b7bdff.png)
-
 
 
 **Task 3: Making an object public**
@@ -111,6 +107,21 @@ Close the web browser tab that displays your new-report.png image, and return to
 In this example, you granted read access to just one specific object. If you would like to grant access to the entire bucket, you need to use a bucket policy, which this lab covers later.
 
 In the next task, you work with your EC2 instance to confirm connectivity to the S3 bucket.
+
+
+![image](https://user-images.githubusercontent.com/89054489/232223720-5c63e347-33d4-465a-8994-0ea9e81596c0.png)
+![image](https://user-images.githubusercontent.com/89054489/232223951-d6318ed0-9e34-4c6c-be70-8ccbc6f3ad06.png)
+![image](https://user-images.githubusercontent.com/89054489/232224072-b81cb65b-52ce-4968-90d1-f946d1b7bdff.png)
+
+![image](https://user-images.githubusercontent.com/89054489/232232431-7a4f1284-2a43-49d5-a786-f063495cac6b.png)
+
+![image](https://user-images.githubusercontent.com/89054489/232232310-8b82e65f-3824-4483-94dc-b823db944d1b.png)
+![image](https://user-images.githubusercontent.com/89054489/232232342-6812ccc6-911d-49a4-a4af-4eec1372f0bb.png)
+![image](https://user-images.githubusercontent.com/89054489/232232703-413d64c3-7c27-4010-ace2-d2f68fbb68dc.png)
+![image](https://user-images.githubusercontent.com/89054489/232232723-76bde136-9d17-4a47-a0e6-5e189567b1ee.png)
+![image](https://user-images.githubusercontent.com/89054489/232232747-21f41b9d-344d-4b67-b1d6-6d4c11779e0d.png)
+![image](https://user-images.githubusercontent.com/89054489/232232780-41778cbb-a915-4183-ad63-c41f0b13bdb6.png)
+
 
 
 **Task 4: Testing connectivity from the EC2 instance**
@@ -175,6 +186,10 @@ The output indicates an upload failed error. This error occurs because you have 
 
 Leave this window open. and go back to browser tab with the AWS console.
 In the next task, you create a bucket policy to add the PutObject permission.
+
+![image](https://user-images.githubusercontent.com/89054489/232232900-b75913e9-18cc-4388-b65c-053ed3ca079b.png)
+![image](https://user-images.githubusercontent.com/89054489/232232980-b9e6bae6-6e41-43c4-91f1-8e96bf74ebcf.png)
+![image](https://user-images.githubusercontent.com/89054489/232233262-d61f148e-8cc1-49b5-b8a6-b1f8d8ab986c.png)
 
 
 **Task 5: Creating a bucket policy**
@@ -361,6 +376,9 @@ If you had trouble generating the policy on your own, you can copy the policy be
 }
 Leave the tab open with the sample-file.txt displayed. You return to this tab in the next task.
 In this task, you created a bucket policy to allow specific access rights to your bucket. In the next section, you explore how to keep copies of files to prevent against accidental deletion.
+
+![image](https://user-images.githubusercontent.com/89054489/232233473-e2c36587-0fd7-40a5-a61c-05623a2fcdd1.png)
+![image](https://user-images.githubusercontent.com/89054489/232233567-fb017920-b99b-4c64-af79-f511dcc1cb22.png)
 
 
 **Task 6: Exploring versioning**
