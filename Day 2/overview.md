@@ -32,8 +32,6 @@ Choose Create bucket
 ![image](https://user-images.githubusercontent.com/89054489/232218545-73702a98-526d-4fe4-abf2-aeaa4b3bbb14.png)
 
 
-
-
 **Task 2: Uploading an object to the bucket**
 Now that you have created a bucket for your report data, you are ready to work with objects. An object can be any kind of file: a text file, a photo, a video, a .zip file, and so on. When you add an object to Amazon S3, you have the option to include metadata with the object and set permissions to control access to the object.
 
@@ -50,6 +48,18 @@ At the bottom of the page, choose Upload
 Your file is successfully uploaded when the green bar indicating Upload succeeded appears.
 
 In the Upload: status section in the upper right, choose Close
+
+![image](https://user-images.githubusercontent.com/89054489/232222798-faaa641f-c5a8-4c95-988d-b6e84c09c94f.png)
+![image](https://user-images.githubusercontent.com/89054489/232222635-c8dd6d73-d05b-4557-b265-57fc48c2c745.png)
+
+![image](https://user-images.githubusercontent.com/89054489/232222894-6bbaa1b1-620b-4fc4-9d83-5a40869f30bf.png)
+![image](https://user-images.githubusercontent.com/89054489/232222957-56baf536-d8de-4765-9fbd-06ff1c9649db.png)
+
+![image](https://user-images.githubusercontent.com/89054489/232223720-5c63e347-33d4-465a-8994-0ea9e81596c0.png)
+![image](https://user-images.githubusercontent.com/89054489/232223951-d6318ed0-9e34-4c6c-be70-8ccbc6f3ad06.png)
+![image](https://user-images.githubusercontent.com/89054489/232224072-b81cb65b-52ce-4968-90d1-f946d1b7bdff.png)
+
+
 
 **Task 3: Making an object public**
 Security is a priority in Amazon S3. Before you configure your EC2 instance to connect to the reportbucket, you want to test the bucket and object settings for security.
