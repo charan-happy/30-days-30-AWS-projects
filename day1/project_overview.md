@@ -299,6 +299,7 @@ Before you can resize an instance, you must stop it.
 
 When you stop an instance, it is shut down. There is no charge for a stopped EC2 instance, but the storage charge for attached EBS volumes remains.
 
+
  
 
 On the EC2 Management Console, in the left navigation pane, choose Instances.
@@ -326,6 +327,13 @@ When the instance is started again, it is a t2.nano instance.
 
 Note: You are restricted from using other instance types in this lab.
 
+![image](https://user-images.githubusercontent.com/89054489/232184239-3b047a64-a3d2-4202-baaf-0ef3620d90cd.png)
+![image](https://user-images.githubusercontent.com/89054489/232184259-61629dbd-e958-4528-9c7e-4984f4bc4492.png)
+![image](https://user-images.githubusercontent.com/89054489/232184324-17973b2a-ebec-48ba-97e3-1a7b393d905b.png)
+![image](https://user-images.githubusercontent.com/89054489/232184391-4f805399-a712-423c-872f-94bcc4f2a7e9.png)
+![image](https://user-images.githubusercontent.com/89054489/232184554-45188099-3e45-4d59-9a93-e5ef4736b417.png)
+![image](https://user-images.githubusercontent.com/89054489/232184576-ee6cadcd-886e-4c4e-8ae5-b4b44a801440.png)
+![image](https://user-images.githubusercontent.com/89054489/232184660-b5086f7a-cab4-4914-8da2-bc7d4e39b09f.png)
  
 
 Resize the EBS volume
@@ -360,6 +368,7 @@ In the left navigation pane, choose Limits.
 Note: There is a limit on the number of instances that you can launch in this Region. When launching an instance, the request must not cause your usage to exceed the current instance limit in that Region.
 
 You can request an increase for many of these limits.
+![image](https://user-images.githubusercontent.com/89054489/232184819-af553228-b891-400d-b2b5-efbbbaeccfd1.png)
 
  
 
@@ -375,6 +384,8 @@ In left navigation pane, choose Instances. Select the  check box for your Web-Se
 At the top of the page in the Instance state  dropdown menu, choose Terminate instance. From the Terminate instance? pop-up window, choose Terminate. 
 
 Note: At the top of the page, a message says Failed to terminate an instance: The instance 'i-xxxxxxxxxxxx' may not be terminated. Modify its 'disableApiTermination' instance attribute and try again. This message is a safeguard to prevent the accidental termination of an instance. If you really want to terminate the instance, you need to turn off the termination protection.
+![image](https://user-images.githubusercontent.com/89054489/232184868-fea311e0-3351-44f0-85d0-a10cf52bdf3a.png)
+![image](https://user-images.githubusercontent.com/89054489/232184919-c52e5ba6-fded-48f6-8a95-95a15aaef4dd.png)
 
  
 
@@ -392,8 +403,3 @@ If the results don't display after a couple of minutes, return to the top of the
 Tip: You can submit your work multiple times. After you change your work, choose Submit again. Your last submission is what will be recorded for this lab.
 
  
-
-To find detailed feedback on your work, choose Details and then choose  View Submission Report.
- 
-
-Lab complete 
