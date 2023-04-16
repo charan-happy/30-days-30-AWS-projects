@@ -489,6 +489,9 @@ The browser page displays the text of the original version of the sample-file.tx
 ![image](https://user-images.githubusercontent.com/89054489/232258249-2571b5f7-9407-4f3b-b19c-438f35ccdde7.png)
 ![image](https://user-images.githubusercontent.com/89054489/232258201-6b37d8d7-eddc-455d-ae1d-90f4d6d916a8.png)
 ![image](https://user-images.githubusercontent.com/89054489/232258275-0fd29eb2-c1e1-443c-9cea-afc9581fa536.png)
+![image](https://user-images.githubusercontent.com/89054489/232293636-7853b950-53a3-4978-94e0-9eba3490b750.png)
+![image](https://user-images.githubusercontent.com/89054489/232294043-134c6e6e-1c5f-46aa-abbf-da58945b1089.png)
+![image](https://user-images.githubusercontent.com/89054489/232294637-195ef657-0201-43c3-a439-59c5457f46d3.png)
 
 
 **Summary**
