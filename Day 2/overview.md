@@ -377,8 +377,19 @@ If you had trouble generating the policy on your own, you can copy the policy be
 Leave the tab open with the sample-file.txt displayed. You return to this tab in the next task.
 In this task, you created a bucket policy to allow specific access rights to your bucket. In the next section, you explore how to keep copies of files to prevent against accidental deletion.
 
-![image](https://user-images.githubusercontent.com/89054489/232233473-e2c36587-0fd7-40a5-a61c-05623a2fcdd1.png)
+![image](https://user-images.githubusercontent.com/89054489/232256444-cf516c6c-aab1-4653-b33e-194b43bbe9b8.png)
 ![image](https://user-images.githubusercontent.com/89054489/232233567-fb017920-b99b-4c64-af79-f511dcc1cb22.png)
+![image](https://user-images.githubusercontent.com/89054489/232256468-04c6a408-54e0-469e-8379-56be3819f4a0.png)
+![image](https://user-images.githubusercontent.com/89054489/232256509-e281940b-1a53-4348-b5f2-05c0390ba921.png)
+![image](https://user-images.githubusercontent.com/89054489/232256559-141ee783-e6ee-4f80-a376-1dcf221c63d6.png)
+![image](https://user-images.githubusercontent.com/89054489/232256610-74275ddd-33a9-4cba-a78d-a6c835571bae.png)
+![image](https://user-images.githubusercontent.com/89054489/232256658-9f9d0d47-8d30-4d00-9400-a327688ebf31.png)
+![image](https://user-images.githubusercontent.com/89054489/232256760-ca2318f4-cc51-4743-ae03-5964dee0d6d0.png)
+![image](https://user-images.githubusercontent.com/89054489/232256861-d163516d-6e8f-48ac-ba75-290784c9a8e8.png)
+![image](https://user-images.githubusercontent.com/89054489/232256872-a62c62e1-659c-45ec-b20e-d46e80d7d2c7.png)
+![image](https://user-images.githubusercontent.com/89054489/232258066-fbd7d116-e5af-4eda-93e8-7303f6e963d5.png)
+![image](https://user-images.githubusercontent.com/89054489/232258031-91f27742-06c3-4e1f-89ab-c4a9768ca400.png)
+![image](https://user-images.githubusercontent.com/89054489/232258086-be7199f0-2d53-4ee1-8aac-625ee9a276c2.png)
 
 
 **Task 6: Exploring versioning**
@@ -474,6 +485,10 @@ Choose the sample-file.txt file name. The sample-file.txt overview page opens.
 Copy the Object URL link displayed at the bottom of the window.
 In a new browser tab, paste the link into the address field, and then press Enter.
 The browser page displays the text of the original version of the sample-file.txt object.
+
+![image](https://user-images.githubusercontent.com/89054489/232258249-2571b5f7-9407-4f3b-b19c-438f35ccdde7.png)
+![image](https://user-images.githubusercontent.com/89054489/232258201-6b37d8d7-eddc-455d-ae1d-90f4d6d916a8.png)
+![image](https://user-images.githubusercontent.com/89054489/232258275-0fd29eb2-c1e1-443c-9cea-afc9581fa536.png)
 
 
 **Summary**
