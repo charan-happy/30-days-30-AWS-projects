@@ -23,6 +23,8 @@ Create an application server to test the VPC
 
 At the end of this lab, your architecture will look like the following example:
 
+![image](https://user-images.githubusercontent.com/89054489/232357827-5b682018-5764-4deb-8fd1-b9e0c55e3c97.png)
+
 Architecture
 
 Duration
@@ -82,12 +84,13 @@ Choose Save.
 
 Any EC2 instances that are launched into the VPC now automatically receive a DNS hostname. You can also add a more-meaningful DNS name (such as app.example.com) later by using Amazon Route 53.
 
-Task 2: Creating subnets
+## Task 2: Creating subnets
 A subnet is a subrange of IP addresses in the VPC. AWS resources can be launched into a specified subnet. Use a public subnet for resources that must be connected to the internet, and use a private subnet for resources that must remain isolated from the internet.
 
 In this task, you create a public subnet and a private subnet:
 
 Subnets
+![image](https://user-images.githubusercontent.com/89054489/232357859-cb473d52-489b-4dab-9ad4-80d0a829a52b.png)
 
 Create a public subnet
 You use the public subnet for internet-facing resources.
