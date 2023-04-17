@@ -114,6 +114,20 @@ user-1	S3-Support	Read-only access to Amazon S3
 user-2	EC2-Support	Read-only access to Amazon EC2
 user-3	EC2-Admin	View, Start, and Stop Amazon EC2 instances
  
+![image](https://user-images.githubusercontent.com/89054489/232415735-69d85fb7-c94d-4743-9d20-e675344c869e.png)
+![image](https://user-images.githubusercontent.com/89054489/232415878-8cd9199a-e219-49ba-a988-160b1f63fa64.png)
+![image](https://user-images.githubusercontent.com/89054489/232416160-6f6d2902-c4db-4427-8f7d-403ffb2627a7.png)
+![image](https://user-images.githubusercontent.com/89054489/232416248-e9540c29-225e-4fd6-98ae-e470d93d537f.png)
+![image](https://user-images.githubusercontent.com/89054489/232416533-5c78529a-d0f2-4ba1-af64-8de5caf272eb.png)
+![image](https://user-images.githubusercontent.com/89054489/232416745-c3597264-a7ec-4ca1-958f-27f35e64f25e.png)
+
+![image](https://user-images.githubusercontent.com/89054489/232416968-2bc8183b-b582-4dc8-86c8-e5f89a165258.png)
+![image](https://user-images.githubusercontent.com/89054489/232417463-d27861e8-dcbf-4934-a600-af52f381c970.png)
+
+![image](https://user-images.githubusercontent.com/89054489/232417746-7c27e1f5-38d5-4285-91d3-6faabab7535f.png)
+
+
+
 
 ## Task 2: Add users to groups
 
@@ -152,7 +166,14 @@ Each group should have a 1 in the Users column. This indicates the number of use
 
 If you do not have a 1 for the Users column for a group, revisit the previous steps to ensure that each user is assigned to a group, as shown in the table in the Business scenario section.
 
- 
+ ![image](https://user-images.githubusercontent.com/89054489/232417978-40771a26-7500-4e20-b2c0-553d37327576.png)
+![image](https://user-images.githubusercontent.com/89054489/232418151-444adfca-09dc-41a3-ac7f-d97624d013cc.png)
+![image](https://user-images.githubusercontent.com/89054489/232418293-3599927b-3052-4872-8463-a40234004baa.png)
+
+![image](https://user-images.githubusercontent.com/89054489/232418690-909ecd47-f8eb-4302-a8cb-767387d8bd50.png)
+![image](https://user-images.githubusercontent.com/89054489/232418865-c379a67a-22d8-478a-9895-f903d53adf7f.png)
+![image](https://user-images.githubusercontent.com/89054489/232419502-0d137f6e-31eb-4ca7-ade3-8d15db913c19.png)
+
 
 ## Task 3: Sign in and test users
 In this task, you will test the permissions of each IAM user in the console.
@@ -253,7 +274,18 @@ This time, the action is successful because user-3 has permissions to stop EC2 i
 
 Close your private browser window.
 
- 
+ ![image](https://user-images.githubusercontent.com/89054489/232419782-85160221-3ae4-4193-95dc-69584e5af70b.png)
+![image](https://user-images.githubusercontent.com/89054489/232420182-172e3d91-1505-4c5e-b4ec-7d06036c06bc.png)
+![image](https://user-images.githubusercontent.com/89054489/232420395-76d9e3a0-53a2-4b11-8bd0-2693ba8fee37.png)
+![image](https://user-images.githubusercontent.com/89054489/232420598-e294ff59-3cf2-49bb-9226-c1cb0c705936.png)
+![image](https://user-images.githubusercontent.com/89054489/232420815-7fbfe42f-ebad-4c16-9f4c-b431b39f9ee2.png)
+![image](https://user-images.githubusercontent.com/89054489/232421059-6255f3f9-3949-471e-bf1e-4e9de16ebe0f.png)
+![image](https://user-images.githubusercontent.com/89054489/232421185-cd5b58db-7e8f-4c55-9088-0a000d1c59a4.png)
+![image](https://user-images.githubusercontent.com/89054489/232421735-2d056134-75c5-4882-973a-5db67688123b.png)
+
+
+![image](https://user-images.githubusercontent.com/89054489/232421883-3ce73f7f-e539-4487-a9da-356b5c51515a.png)
+
 
 Lab complete 
  Congratulations! You have completed the lab.
