@@ -84,6 +84,12 @@ Choose Save.
 
 Any EC2 instances that are launched into the VPC now automatically receive a DNS hostname. You can also add a more-meaningful DNS name (such as app.example.com) later by using Amazon Route 53.
 
+![image](https://user-images.githubusercontent.com/89054489/232374427-404f31cd-a6a6-4539-9c04-e9b941a31335.png)
+![image](https://user-images.githubusercontent.com/89054489/232375047-06d48d2f-5437-4b99-866e-0fb04a9d6068.png)
+![image](https://user-images.githubusercontent.com/89054489/232375255-eae5ed2c-82ce-43ff-913c-fd94a4925f79.png)
+![image](https://user-images.githubusercontent.com/89054489/232375410-d04e8f13-9c8c-462a-ae18-6a00a2e75436.png)
+![image](https://user-images.githubusercontent.com/89054489/232375544-7686adc1-98f5-42d5-b9f8-0ccea94fb481.png)
+
 ## Task 2: Creating subnets
 A subnet is a subrange of IP addresses in the VPC. AWS resources can be launched into a specified subnet. Use a public subnet for resources that must be connected to the internet, and use a private subnet for resources that must remain isolated from the internet.
 
@@ -142,9 +148,14 @@ The CIDR block of 10.0.2.0/23 includes all IP addresses that start with 10.0.2.x
 
 Your VPC now has two subnets. However, the public subnet is totally isolated and cannot communicate with resources outside the VPC. Next, you configure the public subnet to connect to the internet via an internet gateway.
 
- 
+ ![image](https://user-images.githubusercontent.com/89054489/232375676-ff8b58be-85cb-411c-90c7-9e2ff0bcc742.png)
+![image](https://user-images.githubusercontent.com/89054489/232375892-e0c89829-ff52-4e07-a722-4713a46bcbfd.png)
+![image](https://user-images.githubusercontent.com/89054489/232375986-619d892a-fa99-47cd-8cd6-87ed9b8cc755.png)
+![image](https://user-images.githubusercontent.com/89054489/232376091-f4a246c6-a5d7-400b-bfc5-93408255b3f6.png)
+![image](https://user-images.githubusercontent.com/89054489/232376326-9473cb49-3fc3-4a89-8505-3f2cc8e877f4.png)
 
-Task 3: Creating an internet gateway
+
+## Task 3: Creating an internet gateway
 An internet gateway is a horizontally scaled, redundant, and highly available VPC component. It allows communication between the instances in a VPC and the internet. It imposes no availability risks or bandwidth constraints on network traffic.
 
 An internet gateway serves two purposes:
@@ -173,7 +184,12 @@ Choose Attach internet gateway
 
 This action attaches the internet gateway to your Lab VPC. Although you created an internet gateway and attached it to your VPC, you must also configure the public subnet route table so that it uses the internet gateway.
 
-Task 4: Configuring route tables
+![image](https://user-images.githubusercontent.com/89054489/232376429-03176fbc-a959-4ff5-b379-e312916a0a97.png)
+![image](https://user-images.githubusercontent.com/89054489/232376470-7df08d65-82e3-4d51-91df-1dac14883343.png)
+![image](https://user-images.githubusercontent.com/89054489/232376557-ed63a481-8664-4654-8764-4aaeff3fbf8a.png)
+![image](https://user-images.githubusercontent.com/89054489/232376648-0eafce9b-eee2-43f6-962a-f6076eb5eb96.png)
+
+## Task 4: Configuring route tables
 A route table contains a set of rules, called routes, that are used to determine where network traffic is directed. Each subnet in a VPC must be associated with a route table because the table controls the routing for the subnet. A subnet can be associated with only one route table at a time, but you can associate multiple subnets with the same route table.
 
 To use an internet gateway, a subnet's route table must contain a route that directs internet-bound traffic to the internet gateway. If a subnet is associated with a route table that has a route to an internet gateway, it is known as a public subnet.
@@ -242,9 +258,14 @@ Add a route to the route table that directs 0.0.0.0/0 traffic to the internet ga
 
 Associate the route table with a subnet, which then becomes a public subnet.
 
- 
+ ![image](https://user-images.githubusercontent.com/89054489/232376842-2bfb0358-7b0c-48c3-9d09-73c9fa67e694.png)
+![image](https://user-images.githubusercontent.com/89054489/232376916-93f72a36-7228-4f53-b225-d6b1d942ce8b.png)
+![image](https://user-images.githubusercontent.com/89054489/232377043-51ec21f3-1703-418e-a300-7a3c1a5b5e32.png)
+![image](https://user-images.githubusercontent.com/89054489/232377210-8c4ddbbf-33d2-4e52-8c31-2be7d861fc6e.png)
+![image](https://user-images.githubusercontent.com/89054489/232377295-e8c02dfe-61fb-4ced-86c4-d390d4210ed1.png)
 
-Task 5: Creating a security group for the application server
+
+## Task 5: Creating a security group for the application server
 A security group acts as a virtual firewall for instances to control inbound and outbound traffic. Security groups operate at the level of the elastic network interface for the instance. Security groups do not operate at the subnet level. Thus, each instance can have its own firewall that controls traffic. If you do not specify a particular security group at launch time, the instance is automatically assigned to the default security group for the VPC.
 
 In this task, you create a security group that allows users to access your application server via HTTP.
@@ -279,7 +300,11 @@ Choose Save rules
 
 You use this App-SG in the next task.
 
-Task 6: Launching an application server in the public subnet
+![image](https://user-images.githubusercontent.com/89054489/232377519-ab35afd8-ca33-4b6d-831b-ef321e91149e.png)
+![image](https://user-images.githubusercontent.com/89054489/232377674-f537fa1c-3836-4ccb-94f0-8710eff89de3.png)
+![image](https://user-images.githubusercontent.com/89054489/232377891-8ddb2ed2-673f-4d09-9472-976411a8211c.png)
+
+## Task 6: Launching an application server in the public subnet
 To test that your VPC is correctly configured, you now launch an EC2 instance into the public subnet. You also confirm that you can access the EC2 instance from the internet.
 
 On the Services  menu, choose EC2.
@@ -347,7 +372,19 @@ Open a new browser tab, paste the IP address you just copied, and press Enter.
 
      If the Inventory application does not appear, wait for 60 seconds and refresh  the page to try again. It can take a couple of minutes for the EC2 instance to boot and run the script that installs the software.
 
- 
+![image](https://user-images.githubusercontent.com/89054489/232378000-0f920906-250c-4806-83cb-33b39b719bc8.png)
+![image](https://user-images.githubusercontent.com/89054489/232381786-f6f38543-6968-4c0b-bb1e-9bfd09a743e0.png)
+![image](https://user-images.githubusercontent.com/89054489/232381818-545b800a-9f6b-4910-9148-4b98aaae365e.png)
+![image](https://user-images.githubusercontent.com/89054489/232381868-68542bfd-bae6-4276-b039-70af4111b41d.png)
+![image](https://user-images.githubusercontent.com/89054489/232381970-eaea6c73-d795-4441-aaa9-72557722c2c2.png)
+![image](https://user-images.githubusercontent.com/89054489/232382044-c6a7d974-b858-4a47-ac9b-550673f09a28.png)
+![image](https://user-images.githubusercontent.com/89054489/232382122-ce7ec88a-c3a8-4fbf-b410-0b50bdecb797.png)
+
+
+![image](https://user-images.githubusercontent.com/89054489/232378662-67ba405f-9126-4704-9ef1-825d9bf4589e.png)
+
+ ![Uploading image.png…]()
+
 
 Lab complete 
  Congratulations! You have completed the lab.
