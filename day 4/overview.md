@@ -1,5 +1,3 @@
-# Deploy a three tier web application in the cloud
-scalability, High availability, Fault tolerant, security, Improved performance services using are : VPC, Amazon EC2, RDS, AWS Load balancer 
 -----------------------------------------------------------------
 # Lab 4 - Introduction to Amazon Relational Database Service (Amazon RDS)
 
