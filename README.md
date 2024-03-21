@@ -26,7 +26,7 @@ It is currently in developing stage, wait for it to complete
 | [Day 20](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2020/overview.md)|[Yet to update](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2020/overview.md)|
 | [Day 21](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2021/overview.md)|[Yet to update](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2021/overview.md)|
 | [Day 22](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2022/overview.md)|[yet to update](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2022/overview.md)|
-| [Day 23]()|[yet to udpate]()|
+| [Day 23]()|[yet](https://www.youtube.com/watch?v=bSRlkanY5P8)|
 | [Day 24]()|[Loading...]()|
 | [Day 25]()|[Loading...]() |
 | [Day 26]()|[Loading...]()|
