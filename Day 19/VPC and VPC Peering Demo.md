@@ -7,12 +7,12 @@ VPC Creation Steps :
  
 2. Internet Gateway Creation & associating it with VPC
 
-3. Creating Public, Private and Database Subnets in 2 AZs for HA
+3. Creating Public, Private, and Database Subnets in 2 AZs for HA
 
-10.0.1.0/24 --> FlipKart-public-1a
+10.0.1.0/24 --> Flipkart-public-1a
 10.0.2.0/24 --> FlipKart-public-1b
 
-10.0.11.0/24 --> FlipKart-private-1a
+10.0.11.0/24 --> Flipkart-private-1a
 10.0.12.0/24 --> FlipKart-private-1b
 
 10.0.21.0/24 --> FlipKart-database-1a
@@ -22,13 +22,27 @@ VPC Creation Steps :
 4. Create Route tables and attach them to subnets
 
 
-Interview Question : Public subnet vs private subnet ?
-- Subnet which is connected to internet is called public subnet
-- subnet which is not connected to the internet is called private subnet
+Interview Question: Public subnet vs private subnet?
+- A subnet which is connected to the internet is called a public subnet
+- A subnet that is not connected to the internet is called a private subnet
 
-5. Creating Security Group for the instance and it's rules
+5. Creating a Security Group for the instance and its rules
 
-6. Create EC2 and new key pair for it.
+6. Create EC2 and a new key pair for it.
+
+
+NAT Gateway :
+------------
+NAT Gateway is a Network Address Translation (NAT) service. You can use a NAT gateway so that instances in a private subnet can connect to services outside your VPC but external services cannot initiate a connection with those instances.
+
+
+- It should have one public IP
+- It should have one elastic IP(static IP)
+
+NAT Gateway is used to enable outgoing internet connections for the servers in the private subnet.
+
+it should have a 
+
 
 
 
