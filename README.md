@@ -1,7 +1,7 @@
 # 30-days-30-AWS-projects
-This repository is a challenge by myself to get hand son experience on the AWS cloud platform by building 30 projects in 30 days.
+This repository is a challenge by myself to get hands-on experience on the AWS cloud platform by building 30 projects in 30 days.
 
-It is currently in developing stage, wait for it to complete
+It is currently in the developing stage, wait for it to complete
 | Day | Project Title |
 |---|---|
 | [Day 1](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/day1/project_overview.md) | [Creating EC2 instance in AWS](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/day1/project_overview.md) |
@@ -22,14 +22,14 @@ It is currently in developing stage, wait for it to complete
 | [Day 16](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2016/overview.md)|[AWS devops using Codepipeline, code commit, codeBuild, CodeDeploy to ECS ECR](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2016/overview.md)|
 | [Day 17](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2017/overview.md)|[Using Lambda and AWS x-ray to debug ( serverless ) applications](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2017/overview.md)|
 | [Day 18](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2018/overview.md)|[How to use API Gateway with Lambda, AWS service and Mock integrations](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2018/overview.md)|
-| [Day 19](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2019/overview.md.txt)|[yet to update](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2019/overview.md.txt)|
-| [Day 20](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2020/overview.md)|[Yet to update](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2020/overview.md)|
-| [Day 21](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2021/overview.md)|[Yet to update](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2021/overview.md)|
-| [Day 22](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2022/overview.md)|[yet to update](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2022/overview.md)|
+| [Day 19](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2019/overview.md.txt)|[ypc and vpc peering](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2019/overview.md.txt)|
+| [Day 20](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2020/overview.md)|[Automated Image Resizing and Transfer System Using AWS Services](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2020/overview.md)|
+| [Day 21](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2021/overview.md)|[Efficient AWS Cost Management through Stale Resource Detection](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2021/overview.md)|
+| [Day 22](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2022/overview.md)|[Serverless EC2 Instance Scheduler for Company Working Hours](https://github.com/Charan-happy/30-days-30-AWS-projects/blob/main/Day%2022/overview.md)|
 | [Day 23]()|[yet](https://www.youtube.com/watch?v=bSRlkanY5P8)|
-| [Day 24]()|[Loading...]()|
-| [Day 25]()|[Loading...]() |
-| [Day 26]()|[Loading...]()|
+| [Day 24]()|[Secure VPC Architecture with Public and Private Subnets for Production Environment]()|
+| [Day 25]()|[Multi-Tier Architecture on AWS using Terraform]() |
+| [Day 26]()|[]()|
 | [Day 27]()|[Loading...]() |
 | [Day 28]()|[Loading...]()|
 | [Day 29]()|[Loading...]()|
