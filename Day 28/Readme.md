@@ -1,6 +1,8 @@
 # Trigger, Function, Message
 ## Utilizing Amazon API Gateway to Invoke a Python AWS Lambda to Send a Message to Amazon SQS
 
+![alt text](image-26.png)
+
 **Pre-requisites**
 - AWS account with admin user access
 - Basic python knowledge
@@ -17,6 +19,7 @@
 Below is the architecture diagram for the same.
 AWS Lambda and Amazon SQS automatically send logs and metrics to cloudwatch. We will setup the rest of the services, including Lambda role and permission policy.
 
+![alt text](image-28.png)
 
 ## Create a standard SQS Queue using python
 
