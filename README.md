@@ -29,7 +29,7 @@ It is currently in the developing stage, wait for it to complete
 | [Day 23]()|[yet](https://www.youtube.com/watch?v=bSRlkanY5P8)|
 | [Day 24]()|[Secure VPC Architecture with Public and Private Subnets for Production Environment]()|
 | [Day 25]()|[Multi-Tier Architecture on AWS using Terraform]() |
-| [Day 26]()|[]()|
+| [Day 26]()|[AWS Secret Manager](https://github.com/charan-happy/30-days-30-AWS-projects/blob/main/Day%2026/overview.md)|
 | [Day 27]()|[Loading...]() |
 | [Day 28]()|[Utilizing Amazon API Gateway to Invoke a Python AWS Lambda to Send a Message to Amazon SQS](https://github.com/charan-happy/30-days-30-AWS-projects/tree/main/Day%2028)|
 | [Day 29]()|[Integrating Python, Amazon API Gateway, Lambda, SQS, and SNS Services](https://github.com/charan-happy/30-days-30-AWS-projects/tree/main/Day%2029)|
