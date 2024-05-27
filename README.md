@@ -30,7 +30,7 @@ It is currently in the developing stage, wait for it to complete
 | [Day 24]()|[Secure VPC Architecture with Public and Private Subnets for Production Environment]()|
 | [Day 25]()|[Multi-Tier Architecture on AWS using Terraform]() |
 | [Day 26]()|[AWS Secret Manager](https://github.com/charan-happy/30-days-30-AWS-projects/blob/main/Day%2026/overview.md)|
-| [Day 27]()|[Loading...]() |
+| [Day 27]()|[Deploying Wordpress website on AWS using Docker](https://github.com/charan-happy/30-days-30-AWS-projects/tree/main/Day%2027) |
 | [Day 28]()|[Utilizing Amazon API Gateway to Invoke a Python AWS Lambda to Send a Message to Amazon SQS](https://github.com/charan-happy/30-days-30-AWS-projects/tree/main/Day%2028)|
 | [Day 29]()|[Integrating Python, Amazon API Gateway, Lambda, SQS, and SNS Services](https://github.com/charan-happy/30-days-30-AWS-projects/tree/main/Day%2029)|
 | [Day 30]()|[Deploying an Ecommerce application on EKS](https://github.com/charan-happy/30-days-30-AWS-projects/tree/main/Day%2030)|
