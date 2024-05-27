@@ -1,4 +1,6 @@
 # Deploy wordpress website on AWS using Docker
+![image](https://github.com/charan-happy/30-days-30-AWS-projects/assets/89054489/aa3be66f-9c78-48d6-92dc-dbd12cc8e8a1)
+
 
 ## Introduction
 
